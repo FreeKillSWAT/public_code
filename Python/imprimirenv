@@ -1,0 +1,10 @@
+from decouple import config
+
+# Imprime el contenido de .env
+print("Contenido de .env:")
+print(f"AD_SERVER={config('AD_SERVER')}")
+print(f"AD_USERNAME={config('AD_USERNAME')}")
+print(f"AD_PASSWORD={config('AD_PASSWORD')}")
+print(f"LDAP_PORT={config('LDAP_PORT')}")
+print(f"AD_DOMAIN={config('AD_DOMAIN')}")
+print(f"DC={config('DC')}")
